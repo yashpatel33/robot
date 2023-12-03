@@ -70,3 +70,40 @@ h1 {
 	height: 200px;
 	border-radius: 0 0 50px 50px; 
 } 
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	margin: 0 auto;
+	display: flex;
+	
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.right_leg { 
+	margin-left: 30px; 
+}
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: white;  
+} 
